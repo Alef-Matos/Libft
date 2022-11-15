@@ -56,6 +56,4 @@ endereço (&s[index]) para 'f' para ser modificado se necessário.
 - [x] Função `ft_lstdelone` -  Exclui todo conteudo no content do '*lst'(node dado como parâmetro), usando a função 'del'(função dada como parâmetro) em siguida libertando a memoria do 'lst'(node parâmetro).
 - [x] Função `ft_lstclear` - Exclui '*lst'(node dado como parâmetro ) e os próximos node's até chegar ao fim da lista liberando toda a memoria de cada 'node'(free), usando a funcao  'dell'(dada como parâmetro), o ponteiro para a lista deve ser definido como 'nulo'.
 - [x] Função `ft_lstiter` - Itera a lista 'lst' e aplica a função 'f' no content de cada 'node' até o fim da lista.  
-
-## Falta fazer - "BONUS PART"
-- [ ] Função `ft_lstmap` -
+- [x] Função `ft_lstmap` - Itera a lista 'lst' e aplica a função 'f' no conteúdo de cada nó. Cria uma nova lista resultante das sucessivas aplicações de a função 'f'. A função 'del' é usada para excluir o conteúdo de um NODE, se necessário.
