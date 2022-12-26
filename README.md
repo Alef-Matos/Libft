@@ -1,7 +1,7 @@
 # Libft [![almatos's 42 Libft Score](https://badge42.vercel.app/api/v2/cla88p9vf00110fmd8v1byjg9/project/2849382)](https://github.com/JaeSeoKim/badge42)
 ## Parte 1 - Funções Libc "MANDATORY PART"
 
-### Funções da biblioteca `<ctype.h>`
+### :hash:Funções da biblioteca `<ctype.h>`
 - :ballot_box_with_check: Função `ft_isalpha` - Teste de caracteres alfabéticos. 
 - :ballot_box_with_check: Função `ft_isdigit` - Teste de caractere de dígito decimal. 
 - :ballot_box_with_check: Função `ft_isalnum` - Teste de caracteres alfanuméricos. 
@@ -10,11 +10,11 @@
 - :ballot_box_with_check: Função `ft_tolower` - Conversão de letras maiúsculas para minúsculas. 
 - :ballot_box_with_check: Função `ft_toupper` - Conversão de letras minúsculas para maiúsculas. 
 
-### Funções da biblioteca `<stdlib.h>`
+### :hash:Funções da biblioteca `<stdlib.h>`
 - :ballot_box_with_check: Função `ft_atoi` - Converter string ASCII para inteiro. 
 - :ballot_box_with_check: Função `ft_calloc` - Reserva memoria de acordo com o tamanho e o tipo desejado e preeche com nulls.
 
-### Funções da biblioteca `<strings.h>`
+### :hash:Funções da biblioteca `<strings.h>`
 - :ballot_box_with_check: Função `ft_bzero` - Escreve zeros em uma string de bytes. 
 - :ballot_box_with_check: Função `ft_memset` - Escreve um byte em uma string de bytes. 
 - :ballot_box_with_check: Função `ft_memcpy` - Copiar blocos de memória do source para o destino. 
@@ -22,7 +22,7 @@
 - :ballot_box_with_check: Função `ft_memchr` - Localizar um caracter num bloco de memória.
 - :ballot_box_with_check: Função `ft_memcmp`- Comparar blocos de memória entre s1 e s2. 
 
-### Funções da biblioteca `<string.h>`
+### :hash:Funções da biblioteca `<string.h>`
 - :ballot_box_with_check: Função `ft_strlen` - Retorna o tamanho de uma string. 
 - :ballot_box_with_check: Função `ft_strlcpy` - Copiar strings. 
 - :ballot_box_with_check: Função `ft_strlcat` - Concatenação de strings limitadas por tamanho. 
@@ -32,7 +32,7 @@
 - :ballot_box_with_check: Função `ft_strncmp` - Compara strings limitadas por tamanho.
 - :ballot_box_with_check: Função `ft_strdup` - Copia uma string para a memoria.
 
-## Parte 2 - Adicionais funções "MANDATORY PART"
+## :hash:Parte 2 - Adicionais funções "MANDATORY PART"
 - :ballot_box_with_check: Função `ft_substr` - Cria uma string a partir de uma maior, iniciando no byte 'start' com tamano de n bytes 'len'.
 - :ballot_box_with_check: Função `ft_strjoin` - Aloca e retorna uma nova string, que é o resultado da concatenação de 's1' e 's2'.
 - :ballot_box_with_check: Função `ft_strtrim` - Aloca com o malloc e retorna uma copia de 's1' com os caracteres especificados em 'set' removidos no inicio e no fim da string.
@@ -47,7 +47,7 @@ para criar uma nova string com malloc resultando de aplicações sucessivas de '
 - :ballot_box_with_check: Função `ft_strmapi` -  Aplica a função 'f' em cada caractere da string 's', passando seu índice como primeiro argumento. Cada caractere é passado por
 endereço (&s[index]) para 'f' para ser modificado se necessário.
 
-## "BONUS PART"
+## :hash:"BONUS PART"
 - :ballot_box_with_check: Função `ft_lstnew` - Cria um novo 'node' e reserva memória(malloc), a variavel 'content' aponta para o conteudo do parametro '*content' , a variavel 'next' aponta para 'NULL'.
 - :ballot_box_with_check: Função `ft_lstadd_front` - Adiciona o 'node' no inicio e aponta o 'next' para o inicio do proximo 'node', salvando a posicao atual '*list = new'.
 - :ballot_box_with_check: Função `ft_lstsize` - Conta o número de nós em uma lista e retorna um inteiro.
