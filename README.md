@@ -1,4 +1,4 @@
-# : blue_book: Libft [![almatos's 42 Libft Score](https://badge42.vercel.app/api/v2/cla88p9vf00110fmd8v1byjg9/project/2849382)](https://github.com/JaeSeoKim/badge42)
+# :blue_book: Libft [![almatos's 42 Libft Score](https://badge42.vercel.app/api/v2/cla88p9vf00110fmd8v1byjg9/project/2849382)](https://github.com/JaeSeoKim/badge42)
 ## Parte 1 - Funções Libc "MANDATORY PART"
 
 ### :hash: Funções da biblioteca `<ctype.h>`
